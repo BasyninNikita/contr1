@@ -28,8 +28,9 @@ int main()
             cin>>ch;
             for(int i=0;i<9;i++)
             {   
-                for (int j=i+1;j<10;j++){
-                if (array[i]+array[j]==ch) 
+                for (int j=i+1;j<10;j++)
+                {
+                    if (array[i]+array[j]==ch) 
                 {
                     cout<<array[i]<<" "<<array[j];
                     a=1;exit(0);
